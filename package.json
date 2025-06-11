@@ -9,19 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/react": "^2.7.10",
+    "@phosphor-icons/react": "^2.1.10",
+    "brainless-token-manager": "^1.3.3",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.17.0",
+    "next": "15.3.3",
+    "next-seo": "^6.8.0",
+    "nextjs-progressbar": "^0.0.16",
+    "postcss": "^8.5.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "sass": "^1.89.2",
+    "sonner": "^2.0.5",
+    "umi-request": "^1.4.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

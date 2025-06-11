@@ -3,20 +3,20 @@ import { ReactElement } from "react";
 import dynamic from "next/dynamic";
 import MainLayout from "@/layout/MainLayout";
 
-const Home = dynamic(() => import("@/components/views/Home"), {
+const SignUp = dynamic(() => import("@/components/views/Auth/SignUp"), {
   ssr: false,
 });
 
-const HomePage = () => {
+const SignUpPage = () => {
   return (
     <>
-      <Home />
+      <SignUp />
     </>
   );
 };
 
-HomePage.getLayout = function getLayout(page: ReactElement) {
+SignUpPage.getLayout = function getLayout(page: ReactElement) {
   return <MainLayout>{page}</MainLayout>;
 };
 
-export default HomePage;
+export default SignUpPage;
